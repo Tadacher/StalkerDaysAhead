@@ -1,0 +1,18 @@
+[  
+  {
+    "id": "newcomer_village",
+    "type": "overmap_special",
+    "connections": [ { "point": [ 2, 0, 0 ], "terrain": "road" } ],
+    "overmaps": [
+      { "point": [ -1, 0, 0 ], "overmap": "newcomer_camp_0" },
+      { "point": [ -1, 0, 1 ], "overmap": "newcomer_camp_roof_0" },
+      { "point": [ 0, 0, 0 ], "overmap": "newcomer_camp_1" },
+      { "point": [ 1, 0, 0 ], "overmap": "newcomer_camp_2" },
+      { "point": [ 2, 0, 0 ], "overmap": "newcomer_camp_3" }
+    ],
+    "locations": [ "wilderness", "swamp" ],
+    "city_distance": [ -1, 6 ],
+    "city_sizes": [ 2, 14 ],
+    "occurrences": [ 1, 1 ]
+  }
+]

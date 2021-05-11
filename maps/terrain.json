@@ -1,0 +1,23 @@
+[
+  {
+    "id": "t_nuclear_reactor",
+    "type": "terrain",
+    "name": "nuclear reactor core",
+    "description": "",
+    "symbol": "R",
+    "color": "light_green",
+    "move_cost": 0,
+    "flags": [ "TRANSPARENT", "CONTAINER", "REDUCE_SCENT", "PERMEABLE", "PLACE_ITEM" ]
+  }
+  ,
+  {
+    "id": "newcomer_camp",
+    "type": "terrain",
+    "name": "newcomer_camp",
+    "description": "newcomer_camp",
+    "symbol": "N",
+    "color": "white",
+    "move_cost": 0,
+    "flags": [ "TRANSPARENT", "CONTAINER", "REDUCE_SCENT", "PERMEABLE", "PLACE_ITEM" ]
+  }
+]

@@ -1,0 +1,50 @@
+[
+  
+  {
+    "type": "overmap_terrain",
+    "id": "newcomer_camp_0",
+    "name": "newcomer_camp",
+    "sym": "A",
+    "color": "pink",
+    "see_cost": 3,
+    "flags": [ "NO_ROTATE", "RISK_HIGH" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "newcomer_camp_1",
+    "name": "newcomer_camp1",
+    "sym": "A",
+    "color": "pink",
+    "see_cost": 3,
+    "flags": [ "NO_ROTATE", "RISK_HIGH" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "newcomer_camp_roof_0",
+    "name": "newcomer_camp_roof_0",
+    "sym": "A",
+    "color": "pink",
+    "see_cost": 3,
+    "flags": [ "NO_ROTATE", "RISK_HIGH" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "newcomer_camp_2",
+    "name": "newcomer_camp_2",
+    "sym": "A",
+    "color": "pink",
+    "see_cost": 3,
+    "flags": [ "NO_ROTATE", "RISK_HIGH" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "newcomer_camp_3",
+    "name": "newcomer_camp3",
+    "sym": "A",
+    "color": "pink",
+    "see_cost": 3,
+    "flags": [ "NO_ROTATE", "RISK_HIGH" ]
+  }
+
+  
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "type": "MOD_INFO",
+    "ident": "SDA",
+    "name": "Stalker Days Ahead",
+    "authors": [ "Tadacher"],
+    "maintainers": [  ],
+    "description": "Drifts the game to the post-soviet setting with elements of Stalker game lore.",
+    "category": "content",
+    "dependencies": [ "dda" ]
+  }
+]

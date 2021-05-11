@@ -1,0 +1,304 @@
+[
+  {
+    "type": "mapgen",
+    "om_terrain": [ "newcomer_camp_0" ],
+    "method": "json",
+    "object": {
+      "fill_ter": "t_grass",
+      "rows": [
+        "-------------------d----",
+        "b----------mmmm---------",
+        "mmmm--mmmmmmmmmmmmmmmmmm",
+        "bmmmmmmmmmm----mmmmmmmmm",
+        "b---mm-----mmmm---------",
+        "mmmm--mmmmmmmmmmmmmmmmmm",
+        "bmmmmmmmmmm----mmmmmmmmm",
+        "----mm------d-----------",
+        "HHHHHHHHHHH-----------HH",
+        "-d----------------------",
+        "--ccc-------------------",
+        "--c>+--------------A-f--",
+        "--ccc--d--||+||C---A-AA-",
+        "----------v   vC--------",
+        "||||||vv||||+||vv||||---",
+        "|        >|  ^   ^ F|--|",
+        "|     l   |         v--|",
+        "v   t     |  ott   G|--|",
+        "|         |   tto  S|---",
+        "|||||||||+|   tt   #|---",
+        "v @@ :    |    o   #|-d-",
+        "v @@      |         v---",
+        "|         +         |---",
+        "||vv||||||||||vv|||||---"
+      ],
+      "palettes": [ "newcomer_camp" ],
+      
+      "items": {
+        "l": { "item": "cop_armory", "chance": 90 },
+        "i": { "item": "cleaning", "chance": 50 },
+        "B": [ { "item": "textbooks", "chance": 50 }, { "item": "manuals", "chance": 50 } ]
+      }, 
+      "furniture": {
+        "b": "f_earthbag_half",
+        "#": "f_counter",
+        ":": "f_dresser",
+        "@": "f_bed",
+        "F": "f_fridge",
+        "G": "f_oven",
+        "S": "f_sink",
+        "^": "f_indoor_plant",
+        "l": "f_locker",
+        "t": "f_table",
+        "f": "f_firering",
+        "A": "f_floor_mattress",
+        "C": "f_crate_o"
+      },
+      "place_items":  [
+      
+    ],
+      "place_monsters": []
+    }
+  },
+
+  {
+  "type": "mapgen",
+    "om_terrain": [ "newcomer_camp_1"],
+    "method": "json",
+    "object": {
+    "fill_ter": "t_grass",
+      "rows": [
+        "------------------------",
+        "-----------mmmm---------",
+        "mmmm--mmmmmmmmmmmmmmmmmm",
+        "mmmmmmmmmmm----mmmmmmmmm",
+        "----mm-----mmmm---------",
+        "mmmm--mmmmmmmmmmmmmmmmmm",
+        "mmmmmmmmmmm----mmmmmmmmm",
+        "----mm------------------",
+        "HHHHHHHH--HHHH-HHHHHHHHH",
+        "------------------------",
+        "-------------------d----",
+        "----d-------------------",
+        "------------d-----------",
+        "---d--------------------",
+        "---------d---------ccc--",
+        "+|-----------------+>c--",
+        "T|-----------------ccc--",
+        "||---d----~~+~-------d--",
+        "----------~  ~----------",
+        "|vv|||||vv|+||vv|||||vv|",
+        "| @@ ::   |  |  f#G#S##|",
+        "| @@      |  |      o  |",
+        "|         +  +    ottto|",
+        "|||v|||v||||||||v|||v|||"
+      ],
+      "palettes": [ "newcomer_camp" ],
+      
+      "items": {
+        "l": { "item": "cop_armory", "chance": 90 },
+        "i": { "item": "cleaning", "chance": 50 },
+        "B": [ { "item": "textbooks", "chance": 50 }, { "item": "manuals", "chance": 50 } ]
+      }, 
+      "furniture": {
+        "b": "f_earthbag_half",
+        "#": "f_counter",
+        ":": "f_dresser",
+        "@": "f_bed",
+        "F": "f_fridge",
+        "G": "f_oven",
+        "S": "f_sink",
+        "^": "f_indoor_plant",
+        "l": "f_locker",
+        "t": "f_table",
+        "T": "f_toilet"
+      },
+      "place_items":  [
+      
+    ],
+      "place_monsters": []
+    }
+  },
+  {
+  "type": "mapgen",
+    "om_terrain": [ "newcomer_camp_2"],
+    "method": "json",
+    "object": {
+    "fill_ter": "t_grass",
+      "rows": [
+        "------------------------",
+        "-----------mmmm---------",
+        "mmmm--mmmmm----mmmmmmmmm",
+        "----mm------------------",
+        "-----------mmmm---------",
+        "mmmm--mmmmm----mmmmmmmmm",
+        "----mm------------------",
+        "------------------------",
+        "HHHHHHHH-------------d--",
+        "-------H----------------",
+        "-----dd-H------d--------",
+        "-------H----------------",
+        "-------H---www-wwww-wwww",
+        "--d----H---w------------",
+        "-----d-H---w---&--------",
+        "+|-----H----------------",
+        "T|-----H---w---cvvvccccv",
+        "||-----H---w---    +    ",
+        "-------H-------ccccc    ",
+        "--d----H-------c@       ",
+        "-------H---w---c@  ::   ",
+        "-------H---w---ccvvccccc",
+        "----d--H---wT-----------",
+        "-------H---wwwwwwwwwwwww"
+      ],
+      "palettes": [ "newcomer_camp" ],
+      
+      "items": {
+        
+      }, 
+      "furniture": {
+        "#": "f_counter",
+        ":": "f_dresser",
+        "@": "f_bed",
+        "F": "f_fridge",
+        "G": "f_oven",
+        "S": "f_sink",
+        "^": "f_indoor_plant",
+        "l": "f_locker",
+        "t": "f_table",
+        "T": "f_toilet"
+      },
+      "place_items":  [
+      
+    ],
+      "place_monsters": []
+    }
+  },
+   
+{
+  "type": "mapgen",
+    "om_terrain": [ "newcomer_camp_3"],
+    "method": "json",
+    "object": {
+    "fill_ter": "t_grass",
+      "rows": [
+        "------------------------",
+        "-----------mmmm---------",
+        "mmmm--mmmmm----mmmmmmmmm",
+        "----mm------------------",
+        "-----------mmmm---------",
+        "mmmm--mmmmm----mmmmmmmmm",
+        "----mm------------------",
+        "------------------------",
+        "----T-------------------",
+        "------------------------",
+        "------T----T------------",
+        "------------------------",
+        "----ww-ww---------------",
+        "------------------------",
+        "---T----w---------------",
+        "--------w---------------",
+        "vccccc--w---------------",
+        "GFto c--w---------------",
+        "  t  v--w---------------",
+        "  t  c--w---------------",
+        "  o  v--w---------------",
+        "cccccc--w---------------",
+        "------T-w---------------",
+        "wwww-wwww---------------"
+      ],
+      "palettes": [ "newcomer_camp" ],
+      
+      "items": {
+        
+      }, 
+      "furniture": {
+        "#": "f_counter",
+        ":": "f_dresser",
+        "@": "f_bed",
+        "F": "f_fridge",
+        "G": "f_oven",
+        "S": "f_sink",
+        "^": "f_indoor_plant",
+        "l": "f_locker",
+        "t": "f_table",
+        "T": "f_toilet"
+      },
+      "place_items":  [
+      
+    ],
+      "place_monsters": []
+    }
+  },
+
+   {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": "newcomer_camp_roof_0",
+    "object": {
+      "fill_ter": "t_flat_roof",
+      "rows": [
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "|22222222222222222222   ",
+        "|.......uuuuu....u..3   ",
+        "|...u...............3   ",
+        "|........u.....u....3   ",
+        "|...................3   ",
+        "|............u......3   ",
+        "|.........u.........3   ",
+        "|..u.....u..........3   ",
+        "|..............u..u.3   ",
+        "|--------------------   ",
+        "                        "
+      ],
+      "palettes": [ "sda_roofs_common" ]
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": "newcomer_camp_roof_1",
+    "object": {
+      "fill_ter": "t_flat_roof",
+      "rows": [
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "           2222         ",
+        "           |..3         ",
+        " |2222222222..222222223 ",
+        " |....uuu.u..u...uuuu.3 ",
+        " |.u.....u......uuuuu.3 ",
+        " |..uuuu....u..u..u...3 ",
+        " |--------------------- ",
+        "                        "
+      ],
+      "palettes": [ "sda_roofs_common" ]
+    }
+  }
+
+]
