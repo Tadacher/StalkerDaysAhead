@@ -1,0 +1,16 @@
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "mon_snork_death_drops",
+    "entries": [
+      {
+        "distribution": [
+          { "group": "clothing_soldier_set", "prob": 65, "damage": [ 1, 4 ] },
+          {"collection": [ { "group": "hazmat_mask", "damage": [ 1, 1 ] }, ], "prob": 80} ]
+      },
+      { "group": "underwear", "damage": [ 1, 4 ] },
+      { "distribution": [ { "group": "rad_gear", "prob": 1 } ] },
+      { "group": "wallets", "damage": [ 1, 4 ] },
+      { "group": "misc_smoking", "prob": 30 }
+    ]
+  }
