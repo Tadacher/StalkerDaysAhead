@@ -5,12 +5,12 @@
     "entries": [
       {
         "distribution": [
-          { "group": "clothing_soldier_set", "prob": 65, "damage": [ 1, 4 ] },
-          {"collection": [ { "group": "hazmat_mask", "damage": [ 1, 1 ] }, ], "prob": 80} ]
+          { "group": "clothing_soldier_set", "prob": 40, "damage": [ 3, 4 ] },
+          {"collection": [ { "group": "hazmat_mask", "damage": [ 4, 4 ] } ], "prob": 60} ]
       },
-      { "group": "underwear", "damage": [ 1, 4 ] },
+      { "group": "underwear", "damage": [ 2, 4 ] },
       { "distribution": [ { "group": "rad_gear", "prob": 1 } ] },
-      { "group": "wallets", "damage": [ 1, 4 ] },
-      { "group": "misc_smoking", "prob": 30 }
+      { "group": "wallets", "damage": [ 2, 4 ] },
+      { "group": "misc_smoking", "prob": 15 }
     ]
   }
