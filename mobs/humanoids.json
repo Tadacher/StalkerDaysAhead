@@ -64,7 +64,7 @@
         "cooldown": 8,
         "damage_max_instance": [ { "damage_type": "stab", "amount": 20, "armor_multiplier": 0.4 } ]
       }
-    ],
+    ]
 },
 {
     "id": "mon_snork",
