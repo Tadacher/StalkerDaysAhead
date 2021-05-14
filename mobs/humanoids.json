@@ -143,7 +143,7 @@
     "death_drops": "default_zombie_death_drops",
     "death_function": [ "NORMAL" ],
         "special_attacks": [
-      { "type": "spell", "spell_data": { "id": "mi-go_slaver_beam", "min_level": 3 }, "cooldown": 100, "description": "The controller burrowes into your mind!" }, [ "FEAR_PARALYZE", 9 ]
+      { "type": "spell", "spell_data": { "id": "mi-go_slaver_beam", "min_level": 3 }, "cooldown": 100 }, [ "FEAR_PARALYZE", 9 ]
     ],
     "flags": [
       "SEES",
