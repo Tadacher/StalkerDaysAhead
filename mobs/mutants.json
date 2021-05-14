@@ -371,5 +371,43 @@
       "PUSH_MON",
       "PUSH_VEH"
     ]
+  },
+    {
+    "id": "mon_parrot_cat",
+    "type": "MONSTER",
+    "name": { "str": "cat Baiyun" },
+    "description": "A giant domesticated cat as big as a lynx.  Its glands are swollen and red.  Some stalkers say these cats are able to make people fall asleep and can copy any voice or sound.",
+    "default_faction": "big_cat",
+    "bodytype": "dog",
+    "categories": [ "WILDLIFE" ],
+    "species": [ "MAMMAL" ],
+    "volume": "63000 ml",
+    "weight": "63 kg",
+    "hp": 90,
+    "speed": 180,
+    "material": [ "flesh" ],
+    "symbol": "C",
+    "color": "brown",
+    "aggression": 10,
+    "morale": 40,
+    "melee_skill": 6,
+    "melee_dice": 2,
+    "melee_dice_sides": 4,
+    "melee_cut": 8,
+    "dodge": 5,
+    "armor_bash": 1,
+    "vision_day": 50,
+    "vision_night": 20,
+    "path_settings": { "max_dist": 10 },
+    "special_attacks": [
+      [ "PARROT", 700 ],
+      { "id": "scratch", "damage_max_instance": [ { "damage_type": "cut", "amount": 23, "armor_multiplier": 0.8 } ] },
+      { "type": "leap", "cooldown": 5, "max_range": 5 }
+    ],
+    "anger_triggers": [ "STALK", "PLAYER_WEAK", "HURT", "PLAYER_CLOSE", "FRIEND_ATTACKED" ],
+    "placate_triggers": [ "MEAT" ],
+    "death_function": [ "NORMAL" ],
+    "harvest": "mammal_fur",
+    "flags": [ "SEES", "HEARS", "GOODHEARING", "SMELLS", "ANIMAL",  "WARM", "HIT_AND_RUN", "KEENNOSE", "PATH_AVOID_DANGER_2", "CAN_OPEN_DOORS", "PRIORITIZE_TARGETS" ]
   }
 ]
