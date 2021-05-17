@@ -161,7 +161,7 @@
    {
     "id": "mon_zomb_soldier",
     "type": "MONSTER",
-    "name": { "str": "zombiefiedsoldier" },
+    "name": { "str": "zombiefied soldier" },
     "description": "Once a soldier, it is dressed head to toe in combat gear and carries itself rather steadily for a zombie.",
     "default_faction": "zombie",
     "bodytype": "human",
@@ -169,11 +169,11 @@
     "species": [ "ZOMBIE", "HUMAN" ],
     "volume": "62500 ml",
     "weight": "81500 g",
-    "hp": 200,
+    "hp": 150,
     "speed": 80,
     "material": [ "flesh" ],
     "symbol": "Z",
-    "color": "light_green_green",
+    "color": "light_red_green",
     "aggression": 100,
     "morale": 100,
     "melee_skill": 5,
@@ -187,7 +187,6 @@
     "vision_day": 30,
     "vision_night": 3,
     "harvest": "zombie",
-    "special_attacks": [ { "type": "bite", "cooldown": 5, "min_mul": 0.8 } ],
     "death_drops": "mon_zombie_soldier_death_drops",
     "death_function": [ "NORMAL" ],
     "flags": [ "SEES", "HEARS", "SMELLS", "WARM", "BASHES", "GROUP_BASH", "POISON", "NO_BREATHE",  "PUSH_MON", "FILTHY" ]
@@ -202,11 +201,11 @@
     "species": [ "ZOMBIE", "HUMAN" ],
     "volume": "62500 ml",
     "weight": "81500 g",
-    "hp": 200,
+    "hp": 120,
     "speed": 90,
     "material": [ "flesh" ],
     "symbol": "Z",
-    "color": "light_red_green",
+    "color": "light_red_cyan",
     "aggression": 100,
     "morale": 100,
     "melee_skill": 6,
@@ -222,12 +221,65 @@
     "vision_night": 3,
     "harvest": "zombie",
     "path_settings": { "max_dist": 3 },
-    "special_attacks": [
-      { "type": "bite", "cooldown": 5, "min_mul": 1 },
-      [ "GRAB", 7 ],
-      { "id": "scratch", "damage_max_instance": [ { "damage_type": "cut", "amount": 16 } ] }
-    ],
     "death_function": [ "NORMAL" ],
     "flags": [ "SEES", "HEARS", "SMELLS", "WARM", "BASHES", "GROUP_BASH", "POISON", "NO_BREATHE",  "PUSH_MON", "FILTHY" ]
+  },
+     {
+    "id": "mon_zomb_soldier_rifle",
+    "type": "MONSTER",
+    "name": { "str": "ak-47 zombiefied soldier" },
+    "description": "Once a soldier, it is dressed head to toe in combat gear and carries itself rather steadily for a zombie.  He managed to keep a grip on his rifle.",
+    "starting_ammo": { "762_m43": 30 },
+    "copy-from": "mon_zomb_soldier",
+    "color": "red_green",
+    "special_attacks": [
+      {
+        "type": "gun",
+        "cooldown": 6,
+        "move_cost": 150,
+        "gun_type": "ak47",
+        "ammo_type": "762_m43",
+        "fake_skills": [ [ "gun", 3 ], [ "rifle", 6 ] ],
+        "fake_dex": 8,
+        "ranges": [ [ 2, 20, "DEFAULT" ] ],
+        "require_targeting_npc": true,
+        "require_targeting_monster": true,
+        "laser_lock": false,
+        "targeting_cost": 400,
+        "targeting_timeout_extend": -10,
+        "targeting_sound": "",
+        "targeting_volume": 0,
+        "no_ammo_sound": ""
+      }
+    ]
+  },
+  {
+    "id": "mon_zomb_stalker_rifle",
+    "type": "MONSTER",
+    "name": { "str": "ak-47 zombified stalker" },
+    "description": "Still wearing the tattered remnants of improvised armor and weaponry, it is plain to see that this zombie was once a stalker like you.  He managed to keep a grip on his rifle.",
+    "starting_ammo": { "762_m43": 30 },
+    "copy-from": "mon_zomb_stalker",
+    "color": "red_cyan",
+    "special_attacks": [
+      {
+        "type": "gun",
+        "cooldown": 10,
+        "move_cost": 150,
+        "gun_type": "ak47",
+        "ammo_type": "762_m43",
+        "fake_skills": [ [ "gun", 1 ], [ "rifle", 3 ] ],
+        "fake_dex": 8,
+        "ranges": [ [ 2, 20, "DEFAULT" ] ],
+        "require_targeting_npc": true,
+        "require_targeting_monster": true,
+        "laser_lock": false,
+        "targeting_cost": 400,
+        "targeting_timeout_extend": -10,
+        "targeting_sound": "",
+        "targeting_volume": 0,
+        "no_ammo_sound": ""
+      }
+    ]
   }
 ]
